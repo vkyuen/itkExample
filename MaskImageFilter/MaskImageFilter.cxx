@@ -2,6 +2,7 @@
 
 #if ( ITK_VERSION_MAJOR < 4  ) //These are all defaults in ITKv4
 //  Not supported in ITKv3.
+// https://itk.org/Wiki/ITK/Examples/ImageProcessing/MaskImageFilter
 int main(int argc, char *argv[])
 {
   return 0;

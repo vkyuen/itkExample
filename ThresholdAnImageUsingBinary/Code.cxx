@@ -15,6 +15,7 @@
  *  limitations under the License.
  *
  *=========================================================================*/
+// https://itk.org/ITKExamples/src/Filtering/Thresholding/ThresholdAnImageUsingBinary/Documentation.html?highlight=threshold%20binary
 // output at 50 looks to give the best result. 
 
 #include "itkImageFileReader.h"

@@ -67,5 +67,6 @@ Original
 */build/*
 */DICOMs/*
 *.dcm
+*.png
 
 # End of https://www.gitignore.io/api/c++,macos

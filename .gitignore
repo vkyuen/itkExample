@@ -66,5 +66,6 @@ Temporary Items
 Original
 */build/*
 */DICOMs/*
+*.dcm
 
 # End of https://www.gitignore.io/api/c++,macos

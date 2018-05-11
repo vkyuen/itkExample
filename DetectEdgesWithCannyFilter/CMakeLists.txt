@@ -21,8 +21,8 @@ install( FILES Code.cxx CMakeLists.txt
 enable_testing()
 add_test( NAME DetectEdgesWithCannyFilterTest
   COMMAND ${CMAKE_RUNTIME_OUTPUT_DIRECTORY}/DetectEdgesWithCannyFilter
-    ${CMAKE_CURRENT_SOURCE_DIR}/cthead1.png
-    Output.png
+    ${CMAKE_CURRENT_SOURCE_DIR}/threshold_1.png
+    mask.png
     1
     15
     30

@@ -15,6 +15,7 @@
  *  limitations under the License.
  *
  *=========================================================================*/
+// https://itk.org/ITKExamples/src/Filtering/LabelMap/RemoveHolesNotConnectedToImageBoundaries/Documentation.html?highlight=remove%20holes
 
 #include "itkImageFileReader.h"
 #include "itkImageFileWriter.h"

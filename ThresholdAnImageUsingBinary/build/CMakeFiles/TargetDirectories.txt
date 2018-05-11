@@ -1,0 +1,8 @@
+/Users/veronicayuen/Documents/621Final/Downloaded examples/ThresholdAnImageUsingBinary/build/CMakeFiles/install/strip.dir
+/Users/veronicayuen/Documents/621Final/Downloaded examples/ThresholdAnImageUsingBinary/build/CMakeFiles/install.dir
+/Users/veronicayuen/Documents/621Final/Downloaded examples/ThresholdAnImageUsingBinary/build/CMakeFiles/list_install_components.dir
+/Users/veronicayuen/Documents/621Final/Downloaded examples/ThresholdAnImageUsingBinary/build/CMakeFiles/rebuild_cache.dir
+/Users/veronicayuen/Documents/621Final/Downloaded examples/ThresholdAnImageUsingBinary/build/CMakeFiles/edit_cache.dir
+/Users/veronicayuen/Documents/621Final/Downloaded examples/ThresholdAnImageUsingBinary/build/CMakeFiles/install/local.dir
+/Users/veronicayuen/Documents/621Final/Downloaded examples/ThresholdAnImageUsingBinary/build/CMakeFiles/test.dir
+/Users/veronicayuen/Documents/621Final/Downloaded examples/ThresholdAnImageUsingBinary/build/CMakeFiles/ThresholdAnImageUsingBinary.dir

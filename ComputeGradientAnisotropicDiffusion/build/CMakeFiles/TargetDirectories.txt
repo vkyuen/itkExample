@@ -1,0 +1,8 @@
+/Users/veronicayuen/Documents/621Final/Downloaded examples/ComputeGradientAnisotropicDiffusion/build/CMakeFiles/rebuild_cache.dir
+/Users/veronicayuen/Documents/621Final/Downloaded examples/ComputeGradientAnisotropicDiffusion/build/CMakeFiles/edit_cache.dir
+/Users/veronicayuen/Documents/621Final/Downloaded examples/ComputeGradientAnisotropicDiffusion/build/CMakeFiles/install/local.dir
+/Users/veronicayuen/Documents/621Final/Downloaded examples/ComputeGradientAnisotropicDiffusion/build/CMakeFiles/test.dir
+/Users/veronicayuen/Documents/621Final/Downloaded examples/ComputeGradientAnisotropicDiffusion/build/CMakeFiles/list_install_components.dir
+/Users/veronicayuen/Documents/621Final/Downloaded examples/ComputeGradientAnisotropicDiffusion/build/CMakeFiles/install/strip.dir
+/Users/veronicayuen/Documents/621Final/Downloaded examples/ComputeGradientAnisotropicDiffusion/build/CMakeFiles/install.dir
+/Users/veronicayuen/Documents/621Final/Downloaded examples/ComputeGradientAnisotropicDiffusion/build/CMakeFiles/ComputeGradientAnisotropicDiffusion.dir

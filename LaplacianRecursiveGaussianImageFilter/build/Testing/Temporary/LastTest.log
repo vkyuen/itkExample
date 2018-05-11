@@ -1,0 +1,18 @@
+Start testing: May 09 17:38 PDT
+----------------------------------------------------------
+1/1 Testing: LaplacianRecursiveGaussianImageFilterTest
+1/1 Test: LaplacianRecursiveGaussianImageFilterTest
+Command: "/Users/veronicayuen/Documents/621Final/Downloaded examples/LaplacianRecursiveGaussianImageFilter/build/LaplacianRecursiveGaussianImageFilter" "/Users/veronicayuen/Documents/621Final/Downloaded examples/LaplacianRecursiveGaussianImageFilter/cthead1.png" "Output.mha"
+Directory: /Users/veronicayuen/Documents/621Final/Downloaded examples/LaplacianRecursiveGaussianImageFilter/build
+"LaplacianRecursiveGaussianImageFilterTest" start time: May 09 17:38 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.12 sec
+----------------------------------------------------------
+Test Passed.
+"LaplacianRecursiveGaussianImageFilterTest" end time: May 09 17:38 PDT
+"LaplacianRecursiveGaussianImageFilterTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: May 09 17:38 PDT

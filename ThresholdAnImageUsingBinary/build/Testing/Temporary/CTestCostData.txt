@@ -1,0 +1,4 @@
+ThresholdAnImageUsingBinaryTest100 1 0.132254
+ThresholdAnImageUsingBinaryTest150 1 0.134225
+ThresholdAnImageUsingBinaryTest200 1 0.120735
+---

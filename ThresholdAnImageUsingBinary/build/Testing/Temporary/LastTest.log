@@ -1,0 +1,48 @@
+Start testing: May 10 18:05 PDT
+----------------------------------------------------------
+1/3 Testing: ThresholdAnImageUsingBinaryTest100
+1/3 Test: ThresholdAnImageUsingBinaryTest100
+Command: "/Users/veronicayuen/Documents/621Final/Downloaded examples/ThresholdAnImageUsingBinary/build/ThresholdAnImageUsingBinary" "/Users/veronicayuen/Documents/621Final/Downloaded examples/ThresholdAnImageUsingBinary/example.dcm" "Output100.png" "0" "100" "0" "255"
+Directory: /Users/veronicayuen/Documents/621Final/Downloaded examples/ThresholdAnImageUsingBinary/build
+"ThresholdAnImageUsingBinaryTest100" start time: May 10 18:05 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.13 sec
+----------------------------------------------------------
+Test Passed.
+"ThresholdAnImageUsingBinaryTest100" end time: May 10 18:05 PDT
+"ThresholdAnImageUsingBinaryTest100" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/3 Testing: ThresholdAnImageUsingBinaryTest150
+2/3 Test: ThresholdAnImageUsingBinaryTest150
+Command: "/Users/veronicayuen/Documents/621Final/Downloaded examples/ThresholdAnImageUsingBinary/build/ThresholdAnImageUsingBinary" "/Users/veronicayuen/Documents/621Final/Downloaded examples/ThresholdAnImageUsingBinary/example.dcm" "Output150.png" "50" "150" "0" "255"
+Directory: /Users/veronicayuen/Documents/621Final/Downloaded examples/ThresholdAnImageUsingBinary/build
+"ThresholdAnImageUsingBinaryTest150" start time: May 10 18:05 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.13 sec
+----------------------------------------------------------
+Test Passed.
+"ThresholdAnImageUsingBinaryTest150" end time: May 10 18:05 PDT
+"ThresholdAnImageUsingBinaryTest150" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/3 Testing: ThresholdAnImageUsingBinaryTest200
+3/3 Test: ThresholdAnImageUsingBinaryTest200
+Command: "/Users/veronicayuen/Documents/621Final/Downloaded examples/ThresholdAnImageUsingBinary/build/ThresholdAnImageUsingBinary" "/Users/veronicayuen/Documents/621Final/Downloaded examples/ThresholdAnImageUsingBinary/example.dcm" "Output200.png" "100" "200" "0" "255"
+Directory: /Users/veronicayuen/Documents/621Final/Downloaded examples/ThresholdAnImageUsingBinary/build
+"ThresholdAnImageUsingBinaryTest200" start time: May 10 18:05 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.12 sec
+----------------------------------------------------------
+Test Passed.
+"ThresholdAnImageUsingBinaryTest200" end time: May 10 18:05 PDT
+"ThresholdAnImageUsingBinaryTest200" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: May 10 18:05 PDT

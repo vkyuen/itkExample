@@ -1,0 +1,18 @@
+Start testing: May 09 17:54 PDT
+----------------------------------------------------------
+1/1 Testing: SmoothWithRecursiveGaussianTest
+1/1 Test: SmoothWithRecursiveGaussianTest
+Command: "/Users/veronicayuen/Documents/621Final/Downloaded examples/SmoothWithRecursiveGaussian/build/SmoothWithRecursiveGaussian" "/Users/veronicayuen/Documents/621Final/Downloaded examples/SmoothWithRecursiveGaussian/BrainProtonDensitySlice.png" "Output.png" "3"
+Directory: /Users/veronicayuen/Documents/621Final/Downloaded examples/SmoothWithRecursiveGaussian/build
+"SmoothWithRecursiveGaussianTest" start time: May 09 17:54 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.13 sec
+----------------------------------------------------------
+Test Passed.
+"SmoothWithRecursiveGaussianTest" end time: May 09 17:54 PDT
+"SmoothWithRecursiveGaussianTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: May 09 17:54 PDT

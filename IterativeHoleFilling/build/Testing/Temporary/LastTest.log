@@ -1,0 +1,20 @@
+Start testing: May 10 18:08 PDT
+----------------------------------------------------------
+1/1 Testing: IterativeHoleFillingTest
+1/1 Test: IterativeHoleFillingTest
+Command: "/Users/veronicayuen/Documents/621Final/Downloaded examples/IterativeHoleFilling/build/IterativeHoleFilling" "/Users/veronicayuen/Documents/621Final/Downloaded examples/IterativeHoleFilling/BinaryThresholdImageFilter.png" "Output.png" "3" "1" "5"
+Directory: /Users/veronicayuen/Documents/621Final/Downloaded examples/IterativeHoleFilling/build
+"IterativeHoleFillingTest" start time: May 10 18:08 PDT
+Output:
+----------------------------------------------------------
+libpng warning: sCAL: invalid unit
+libpng warning: sCAL: invalid unit
+<end of output>
+Test time =   0.24 sec
+----------------------------------------------------------
+Test Passed.
+"IterativeHoleFillingTest" end time: May 10 18:08 PDT
+"IterativeHoleFillingTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: May 10 18:08 PDT

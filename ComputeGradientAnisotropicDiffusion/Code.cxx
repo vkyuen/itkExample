@@ -15,6 +15,7 @@
  *  limitations under the License.
  *
  *=========================================================================*/
+// https://itk.org/ITKExamples/src/Filtering/AnisotropicSmoothing/ComputeGradientAnisotropicDiffusion/Documentation.html
 
 #include "itkImageFileReader.h"
 #include "itkImageFileWriter.h"

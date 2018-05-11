@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.10.2)
 
-set( input_image ${CMAKE_CURRENT_SOURCE_DIR}/Yinyang.png )
-set( output_image Output.png )
+set( input_image ${CMAKE_CURRENT_SOURCE_DIR}/threshold_1.png )
+set( output_image mask.png )
 
 project( RemoveHolesNotConnectedToImageBoundaries )
 

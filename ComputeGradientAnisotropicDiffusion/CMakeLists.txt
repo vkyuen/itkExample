@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.10.2)
 
 set( input_image ${CMAKE_CURRENT_SOURCE_DIR}/example.dcm )
-set( output_image Output.dcm )
+set( output_image Output.png)
 set( test_options 5 0.121 1.0 )
 
 project( ComputeGradientAnisotropicDiffusion )
@@ -30,12 +30,4 @@ add_test( NAME ComputeGradientAnisotropicDiffusionTest
   ${test_options}
 )
 
-if( ITK_WRAP_PYTHON )
-  string( REPLACE . "Python." output_image "${output_image}" )
-  add_test( NAME ComputeGradientAnisotropicDiffusionTestPython
-    COMMAND ${PYTHON_EXECUTABLE} ${CMAKE_CURRENT_SOURCE_DIR}/Code.py
-      ${input_image}
-      ${output_image}
-      ${test_options}
-    )
-endif()
+

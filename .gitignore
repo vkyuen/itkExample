@@ -64,6 +64,6 @@ Temporary Items
 
 # Ignore original file
 Original
-
+build/*
 
 # End of https://www.gitignore.io/api/c++,macos

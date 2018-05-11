@@ -62,5 +62,8 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
+# Ignore original file
+Original
+
 
 # End of https://www.gitignore.io/api/c++,macos

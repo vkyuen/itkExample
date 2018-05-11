@@ -19,29 +19,29 @@ install( FILES Code.cxx CMakeLists.txt
 )
 
 enable_testing()
-add_test( NAME ThresholdAnImageUsingBinaryTest100
+add_test( NAME ThresholdAnImageUsingBinaryTest145
   COMMAND ${CMAKE_RUNTIME_OUTPUT_DIRECTORY}/ThresholdAnImageUsingBinary
     ${CMAKE_CURRENT_SOURCE_DIR}/example.dcm
-    Output100.png
-    0
-    100
+    30_175.png
+    30
+    175
     0
     255
   )
 add_test( NAME ThresholdAnImageUsingBinaryTest150
   COMMAND ${CMAKE_RUNTIME_OUTPUT_DIRECTORY}/ThresholdAnImageUsingBinary
     ${CMAKE_CURRENT_SOURCE_DIR}/example.dcm
-    Output150.png
-    50
-    150
+    30_250.png
+    30
+    250
     0
     255
   )
-add_test( NAME ThresholdAnImageUsingBinaryTest200
+add_test( NAME ThresholdAnImageUsingBinaryTest155
   COMMAND ${CMAKE_RUNTIME_OUTPUT_DIRECTORY}/ThresholdAnImageUsingBinary
     ${CMAKE_CURRENT_SOURCE_DIR}/example.dcm
-    Output200.png
-    100
+    30_200.png
+    30
     200
     0
     255

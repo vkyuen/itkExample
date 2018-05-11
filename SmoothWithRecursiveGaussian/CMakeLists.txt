@@ -22,18 +22,18 @@ enable_testing()
 add_test( NAME SmoothWithRecursiveGaussianTest00
   COMMAND ${CMAKE_RUNTIME_OUTPUT_DIRECTORY}/SmoothWithRecursiveGaussian
     ${CMAKE_CURRENT_SOURCE_DIR}/example.dcm
-    Threshold_3.png
+    threshold_3.png
     3
   )
 add_test( NAME SmoothWithRecursiveGaussianTest01
   COMMAND ${CMAKE_RUNTIME_OUTPUT_DIRECTORY}/SmoothWithRecursiveGaussian
     ${CMAKE_CURRENT_SOURCE_DIR}/example.dcm
-    Threshold_2.png
+    threshold_2.png
     2
   )
   add_test( NAME SmoothWithRecursiveGaussianTest02
   COMMAND ${CMAKE_RUNTIME_OUTPUT_DIRECTORY}/SmoothWithRecursiveGaussian
     ${CMAKE_CURRENT_SOURCE_DIR}/example.dcm
-    Threshold_1.png
+    threshold_1.png
     1
   )

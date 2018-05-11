@@ -14,6 +14,6 @@ else()
   set(Glue ItkVtkGlue)
 endif()
  
-add_executable(MaskImageFilter MACOSX_BUNDLE MaskImageFilter.cxx)
+add_executable(MaskImageFilter MaskImageFilter.cxx)
 target_link_libraries(MaskImageFilter
   ${Glue}  ${VTK_LIBRARIES} ${ITK_LIBRARIES})

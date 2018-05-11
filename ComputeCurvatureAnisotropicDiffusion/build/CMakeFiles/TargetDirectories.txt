@@ -1,8 +1,0 @@
-/Users/veronicayuen/Documents/621Final/Downloaded examples/ComputeCurvatureAnisotropicDiffusion/build/CMakeFiles/install/strip.dir
-/Users/veronicayuen/Documents/621Final/Downloaded examples/ComputeCurvatureAnisotropicDiffusion/build/CMakeFiles/install.dir
-/Users/veronicayuen/Documents/621Final/Downloaded examples/ComputeCurvatureAnisotropicDiffusion/build/CMakeFiles/list_install_components.dir
-/Users/veronicayuen/Documents/621Final/Downloaded examples/ComputeCurvatureAnisotropicDiffusion/build/CMakeFiles/rebuild_cache.dir
-/Users/veronicayuen/Documents/621Final/Downloaded examples/ComputeCurvatureAnisotropicDiffusion/build/CMakeFiles/edit_cache.dir
-/Users/veronicayuen/Documents/621Final/Downloaded examples/ComputeCurvatureAnisotropicDiffusion/build/CMakeFiles/install/local.dir
-/Users/veronicayuen/Documents/621Final/Downloaded examples/ComputeCurvatureAnisotropicDiffusion/build/CMakeFiles/test.dir
-/Users/veronicayuen/Documents/621Final/Downloaded examples/ComputeCurvatureAnisotropicDiffusion/build/CMakeFiles/ComputeCurvatureAnisotropicDiffusion.dir

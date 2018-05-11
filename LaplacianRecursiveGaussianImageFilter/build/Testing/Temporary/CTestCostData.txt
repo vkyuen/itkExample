@@ -1,2 +1,0 @@
-LaplacianRecursiveGaussianImageFilterTest 1 0.12007
----

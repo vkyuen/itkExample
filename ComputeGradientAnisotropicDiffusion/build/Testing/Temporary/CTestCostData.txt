@@ -1,2 +1,0 @@
-ComputeGradientAnisotropicDiffusionTest 5 0.119423
----

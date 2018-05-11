@@ -1,0 +1,18 @@
+Start testing: May 09 17:44 PDT
+----------------------------------------------------------
+1/1 Testing: ComputeCurvatureAnisotropicDiffusionTest
+1/1 Test: ComputeCurvatureAnisotropicDiffusionTest
+Command: "/Users/veronicayuen/Documents/621Final/Downloaded examples/ComputeCurvatureAnisotropicDiffusion/build/ComputeCurvatureAnisotropicDiffusion" "/Users/veronicayuen/Documents/621Final/Downloaded examples/ComputeCurvatureAnisotropicDiffusion/BrainProtonDensitySlice.png" "Output.png" "5" "0.125" "3.0"
+Directory: /Users/veronicayuen/Documents/621Final/Downloaded examples/ComputeCurvatureAnisotropicDiffusion/build
+"ComputeCurvatureAnisotropicDiffusionTest" start time: May 09 17:44 PDT
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.17 sec
+----------------------------------------------------------
+Test Passed.
+"ComputeCurvatureAnisotropicDiffusionTest" end time: May 09 17:44 PDT
+"ComputeCurvatureAnisotropicDiffusionTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: May 09 17:44 PDT

@@ -15,6 +15,7 @@
  *  limitations under the License.
  *
  *=========================================================================*/
+// https://itk.org/ITKExamples/src/Filtering/Smoothing/SmoothWithRecursiveGaussian/Documentation.html
 
 #include "itkSmoothingRecursiveGaussianImageFilter.h"
 #include "itkImage.h"

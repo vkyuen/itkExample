@@ -42,21 +42,23 @@ int main( int argc, char * argv[] )
   filter->SetInsideValue( 255 );
 
     using WriterType = itk::ImageFileWriter< ImageType >;
-  WriterType::Pointer writer = WriterType::New();
-  writer->SetFileName( "binary.png" );
-  writer->SetInput( filter->GetOutput() );
+  WriterType::Pointer writer1 = WriterType::New();
+  writer1->SetFileName( "binary.png" );
+  writer1->SetInput( filter->GetOutput() );
 
   using RecursiveFilterType = itk::SmoothingRecursiveGaussianImageFilter< ImageType, ImageType >;
   RecursiveFilterType::Pointer smoothFilter = RecursiveFilterType::New();
   smoothFilter->SetSigma( 1 );
   smoothFilter->SetInput( filter->GetOutput() );
 
-  writer->SetFileName( "binarySmooth.png" );
-  writer->SetInput( smoothFilter->GetOutput() );
+  WriterType::Pointer writer2 = WriterType::New();
+  writer2->SetFileName( "binarySmooth.png" );
+  writer2->SetInput( smoothFilter->GetOutput() );
 
   try
     {
-    writer->Update();
+    writer1->Update();
+    writer2->Update();
     }
   catch( itk::ExceptionObject & e )
     {

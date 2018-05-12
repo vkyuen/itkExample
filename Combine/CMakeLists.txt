@@ -22,29 +22,10 @@ enable_testing()
 add_test( NAME ThresholdAnImageUsingBinaryTest145
   COMMAND ${CMAKE_RUNTIME_OUTPUT_DIRECTORY}/ThresholdAnImageUsingBinary
     ${CMAKE_CURRENT_SOURCE_DIR}/example.dcm
-    ${CMAKE_CURRENT_SOURCE_DIR}/done/done.png
+    combine.png
     30
     150
     0
     255
   )
 
-#[[add_test( NAME ThresholdAnImageUsingBinaryTest150
-  COMMAND ${CMAKE_RUNTIME_OUTPUT_DIRECTORY}/ThresholdAnImageUsingBinary
-    ${CMAKE_CURRENT_SOURCE_DIR}/example.dcm
-    30_150.png
-    30
-    150
-    0
-    255
-  )
-add_test( NAME ThresholdAnImageUsingBinaryTest155
-  COMMAND ${CMAKE_RUNTIME_OUTPUT_DIRECTORY}/ThresholdAnImageUsingBinary
-    ${CMAKE_CURRENT_SOURCE_DIR}/example.dcm
-    30_200.png
-    30
-    200
-    0
-    255
-  )
-  ]]

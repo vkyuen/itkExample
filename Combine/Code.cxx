@@ -1,27 +1,8 @@
-/*=========================================================================
- *
- *  Copyright Insight Software Consortium
- *
- *  Licensed under the Apache License, Version 2.0 (the "License");
- *  you may not use this file except in compliance with the License.
- *  You may obtain a copy of the License at
- *
- *         http://www.apache.org/licenses/LICENSE-2.0.txt
- *
- *  Unless required by applicable law or agreed to in writing, software
- *  distributed under the License is distributed on an "AS IS" BASIS,
- *  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- *  See the License for the specific language governing permissions and
- *  limitations under the License.
- *
- *=========================================================================*/
-// https://itk.org/ITKExamples/src/Filtering/Thresholding/ThresholdAnImageUsingBinary/Documentation.html?highlight=threshold%20binary
-// output at 50 looks to give the best result. 
-
 #include "itkImageFileReader.h"
 #include "itkImageFileWriter.h"
 #include "itkImage.h"
 #include "itkBinaryThresholdImageFilter.h"
+#include "itkSmoothingRecursiveGaussianImageFilter.h"
 
 int main( int argc, char * argv[] )
 {
@@ -55,20 +36,23 @@ int main( int argc, char * argv[] )
   using FilterType = itk::BinaryThresholdImageFilter< ImageType, ImageType >;
   FilterType::Pointer filter = FilterType::New();
   filter->SetInput( reader->GetOutput() );
-  filter->SetLowerThreshold( LowerThreshold );
-  filter->SetUpperThreshold( UpperThreshold );
-  filter->SetOutsideValue( OutsideValue );
-  filter->SetInsideValue( InsideValue );
+  filter->SetLowerThreshold( 30 );
+  filter->SetUpperThreshold( 150 );
+  filter->SetOutsideValue( 0 );
+  filter->SetInsideValue( 255 );
+
+    using WriterType = itk::ImageFileWriter< ImageType >;
+  WriterType::Pointer writer = WriterType::New();
+  writer->SetFileName( "binary.png" );
+  writer->SetInput( filter->GetOutput() );
 
   using RecursiveFilterType = itk::SmoothingRecursiveGaussianImageFilter< ImageType, ImageType >;
   RecursiveFilterType::Pointer smoothFilter = RecursiveFilterType::New();
   smoothFilter->SetSigma( 1 );
   smoothFilter->SetInput( filter->GetOutput() );
 
-  using WriterType = itk::ImageFileWriter< ImageType >;
-  WriterType::Pointer writer = WriterType::New();
-  writer->SetFileName( OutputImage );
-  writer->SetInput( filter->GetOutput() );
+  writer->SetFileName( "binarySmooth.png" );
+  writer->SetInput( smoothFilter->GetOutput() );
 
   try
     {

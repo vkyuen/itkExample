@@ -1,9 +1,5 @@
 cmake_minimum_required(VERSION 3.10.2)
 
-set( input_image ${CMAKE_CURRENT_SOURCE_DIR}/example.dcm )
-set( output_image Output.png)
-set( test_options 5 0.121 1.0 )
-
 project( ComputeGradientAnisotropicDiffusion )
 
 find_package( ITK REQUIRED )
@@ -23,11 +19,23 @@ install( FILES Code.cxx CMakeLists.txt Code.py
   )
 
 enable_testing()
-add_test( NAME ComputeGradientAnisotropicDiffusionTest
+add_test( NAME ComputeGradientAnisotropicDiffusionTest00
   COMMAND ${CMAKE_RUNTIME_OUTPUT_DIRECTORY}/ComputeGradientAnisotropicDiffusion
-  ${input_image}
-  ${output_image}
-  ${test_options}
+  ${CMAKE_CURRENT_SOURCE_DIR}/example.dcm
+  5_121_1.png
+  5 0.121 1.0
+)
+add_test( NAME ComputeGradientAnisotropicDiffusionTest01
+  COMMAND ${CMAKE_RUNTIME_OUTPUT_DIRECTORY}/ComputeGradientAnisotropicDiffusion
+  ${CMAKE_CURRENT_SOURCE_DIR}/example.dcm
+  2_121_1.png
+  2 0.121 1.0
+)
+add_test( NAME ComputeGradientAnisotropicDiffusionTest02
+  COMMAND ${CMAKE_RUNTIME_OUTPUT_DIRECTORY}/ComputeGradientAnisotropicDiffusion
+  ${CMAKE_CURRENT_SOURCE_DIR}/example.dcm
+  7_121_1.png
+  7 0.121 1.0
 )
 
 
